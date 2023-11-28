@@ -23,7 +23,7 @@ const alchemyAPIKey = 'YOUR_ALCHEMY_API_KEY';
 const provider = new ethers.providers.WebSocketProvider(`https://polygon-mumbai.g.alchemy.com/v2/${alchemyAPIKey}`);
 const contract = new ethers.Contract(contractAddress, ABI, provider);
 
-Running the Script
+### Running the Script
 Run the script using the following command:
 node server.js
 
